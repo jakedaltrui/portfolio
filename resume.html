@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jacob D'Altrui — Resume</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 1.4;
+    color: #1a1a1a;
+    background: #f5f5f5;
+  }
+
+  .page {
+    max-width: 8.5in;
+    margin: 0.5in auto;
+    padding: 0.5in 0.6in;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+
+  /* Header */
+  .header { text-align: center; margin-bottom: 14px; }
+  .header h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+  }
+  .header .contact {
+    font-size: 11px;
+    color: #444;
+  }
+  .header .contact a { color: #444; text-decoration: none; }
+  .header .contact a:hover { text-decoration: underline; }
+
+  /* Sections */
+  .section { margin-bottom: 12px; }
+  .section-title {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
+  }
+
+  /* Summary */
+  .summary { font-size: 11px; line-height: 1.45; }
+
+  /* Education */
+  .edu-item { margin-bottom: 6px; }
+  .edu-item .school { font-weight: bold; }
+  .edu-item .detail { color: #444; font-size: 10.5px; margin-top: 1px; }
+
+  /* Experience */
+  .job { margin-bottom: 10px; }
+  .job-header { display: flex; justify-content: space-between; align-items: baseline; }
+  .job-title { font-weight: bold; }
+  .job-title a { color: #1a1a1a; text-decoration: none; }
+  .job-date { font-style: italic; color: #555; white-space: nowrap; }
+  .job-location { color: #555; font-size: 10.5px; }
+  .job ul {
+    margin: 3px 0 0 18px;
+    padding: 0;
+  }
+  .job ul li { margin-bottom: 2px; }
+
+  /* Skills */
+  .skills-grid { display: flex; flex-wrap: wrap; gap: 2px 0; }
+  .skills-row { width: 100%; margin-bottom: 3px; }
+  .skills-row strong { display: inline; }
+
+  /* Activities / Honors */
+  .activity { margin-bottom: 3px; }
+  .activity strong { font-weight: bold; }
+
+  /* Print styles */
+  @media print {
+    body { background: #fff; }
+    .page {
+      margin: 0;
+      padding: 0.4in 0.5in;
+      box-shadow: none;
+      max-width: none;
+    }
+    a { color: #1a1a1a !important; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="header">
+    <h1>Jacob D'Altrui</h1>
+    <div class="contact">
+      New Orleans, LA &nbsp;|&nbsp; jacobdaltrui@gmail.com &nbsp;|&nbsp; 239-476-2948 &nbsp;|&nbsp; <a href="https://www.linkedin.com/in/jake-daltrui/" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary">
+      Entrepreneur and Division I athlete who leverages AI to build production systems that drive real business growth. Founded and scaled two online training businesses, quadrupled a client's revenue through sales and marketing consulting, and built full-stack web applications and automation workflows using AI-assisted development. Currently interning in SaaS sales development while pursuing a Marketing degree.
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <span class="school">LSU New Orleans, Bernstein College of Business</span> — B.S. Marketing with Sales Concentration, Expected Dec 2026
+      <div class="detail">Relevant Coursework: Sales Management | Consumer Behavior | Integrated Marketing Communication | Principles of Financial Management</div>
+    </div>
+    <div class="edu-item">
+      <span class="school">University of Innsbruck</span> — Study Abroad, Jul – Aug 2025
+      <div class="detail">WWII &amp; European history coursework in Austria</div>
+    </div>
+    <div class="edu-item">
+      <span class="school">Pasco-Hernando State College</span> — Sep 2023 – May 2024
+      <div class="detail">Associate coursework</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Professional Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">ServiceTrade — Sales Development Intern</span>
+        <span class="job-date">Summer 2026</span>
+      </div>
+      <div class="job-location">Durham, NC</div>
+      <ul>
+        <li>Upcoming role — SaaS sales development</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Axis Baseball (<a href="https://axisbaseball.com">axisbaseball.com</a>) — Founder &amp; Operator</span>
+        <span class="job-date">Jun 2025 – Present</span>
+      </div>
+      <ul>
+        <li>Built full-stack coaching platform using AI-assisted development: marketing site, community app with authentication, payments, and messaging, and automated program delivery system</li>
+        <li>Developed AI-powered automation workflows including lead qualification bot, email inbox classifier, competitor content tracker, and multi-platform video cross-poster using n8n</li>
+        <li>Built Roster Scout, a web scraping tool used by baseball coaches to auto-generate formatted Google Sheets from college roster data</li>
+        <li>Manage Meta Ads campaigns, conversion tracking (GTM, server-side CAPI), and multi-step sales funnels driving client acquisition</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Kirk's Pitching Performance — Sales, Marketing &amp; Technology Consultant</span>
+        <span class="job-date">Dec 2024 – Feb 2025</span>
+      </div>
+      <ul>
+        <li>Quadrupled monthly revenue ($2k to $8k/month) in under two months by redesigning sales process, improving conversion, and increasing price point</li>
+        <li>Built client website with lead capture forms, GoHighLevel CRM integration, and automated email workflows</li>
+        <li>Drove 500% client growth, doubled organic social following (5k to 10k), and boosted lead generation through restructured acquisition strategy</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Pitchers University — Co-Founder &amp; CEO</span>
+        <span class="job-date">Jul 2024 – Jun 2025</span>
+      </div>
+      <ul>
+        <li>Launched and scaled online baseball training business to $10k+ monthly revenue in three months by driving lead generation, marketing, and sales</li>
+        <li>Engineered full sales process from lead qualification through consultative sales and pricing strategy</li>
+        <li>Managed and retained a client base of 100+ athletes through structured programming and relationship-driven growth</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Evolve Baseball — Coach</span>
+        <span class="job-date">Nov 2023 – Jan 2024</span>
+      </div>
+      <ul>
+        <li>Mentored 30+ youth athletes, building trust and simplifying complex training concepts</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Skills &amp; Tools</div>
+    <div class="skills-row"><strong>Core:</strong> Lead Generation | Revenue Growth | Sales Strategy | AI Implementation | Marketing Automation | CRM &amp; Sales Automation</div>
+    <div class="skills-row"><strong>Technical:</strong> Next.js | Python | n8n | Stripe | Meta Ads | GoHighLevel | Vercel | Google Tag Manager</div>
+    <div class="skills-row"><strong>AI &amp; Development:</strong> Claude Code | Cursor | AI-Assisted Full-Stack Development</div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Activities &amp; Leadership</div>
+    <div class="activity"><strong>NCAA Division I Baseball Player</strong> – University of New Orleans</div>
+    <div class="activity" style="margin-left: 18px;">Balance 25+ weekly athletic hours with academics and entrepreneurship</div>
+  </div>
+
+  <div class="section" style="margin-bottom: 0;">
+    <div class="section-title">Honors &amp; Awards</div>
+    <div class="activity">Athletic Scholarship Recipient &nbsp;|&nbsp; First Team All-Conference, Pasco-Hernando State College</div>
+  </div>
+
+</div>
+</body>
+</html>
